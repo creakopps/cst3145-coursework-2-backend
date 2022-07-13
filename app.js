@@ -25,7 +25,7 @@ app.use(function (req, res, next) {
     });
 });
 const MongoClient = require('mongodb').MongoClient;
-MongoClient.connect('mongodb+srv://denrg1234A:@cluster0.qnpdige.mongodb.net/?', (err, client) => {
+MongoClient.connect('mongodb+srv://denrg1234A:@cluster-lesson.8cspb.mongodb.net/?', (err, client) => {
     db = client.db('app')
 })
 // get the collection name
