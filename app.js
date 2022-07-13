@@ -75,14 +75,10 @@ app.delete('/collection/:collectionName/:id', (req, res, next) => {
         res.send((result.result.n === 1) ?
             { msg: 'success' } : { msg: 'error' })
     })
-})
+}) 
 const port = process.env.PORT || 3000
 app.listen(port)
-white_check_mark
-eyes
-raised_hands
-React
-Reply
+
 
 
 
